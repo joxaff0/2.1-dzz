@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 1125px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgba(242, 206, 218, 1);
+}
+
+.home>a{
+    color: rgba(210, 49, 102, 1);
+}
+
+li>a{
+    color: rgba(21, 1, 1, 1);
+}
+
+.button1{
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: rgba(210, 49, 102, 1);
+    border: none;
+}
+
+.button1>span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+}
+
+main{
+    margin-top: 197px;
+}
+
+.ice-cream{
+    width: 665px;
+    height: 130px;
+    font-family: Fredoka One;
+    font-size: 57.33px;
+    font-weight: 400px;
+    line-height: 69.08px;
+}
+
+.ice-cream>span{
+    font-size: 57.33px;
+    font-weight: 400px;
+    line-height: 69.08px;
+    color: rgba(210, 49, 102, 1);
+}
+
+.text{
+    width: 523px;
+    height: 78px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    opacity: 60%;
+    margin-top: 35px;
+}
+
+.button2{
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: rgba(210, 49, 102, 1);
+    border: none;
+    margin-top: 50px;
+}
+
+.button2>span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    color: white;
+}
+
+.asosiy{
+    display: flex;
+}
+
+.ice{
+    width: 597px;
+    height: 597px;
+}
